@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tower Defense Strategies</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Tower Defense Strategy Hub</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#strategies">Strategies</a></li>
+                <li><a href="#submit-strategy">Submit Strategy</a></li>
+                <li><a href="#donate">Donate</a></li> <!-- Added Donate Link -->
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Home Section -->
+        <section id="home">
+            <h2>Welcome to the Tower Defense Strategy Hub</h2>
+            <p>Share and discover strategies to dominate your Tower Defense games!</p>
+        </section>
+
+        <!-- Strategies Section -->
+        <section id="strategies">
+            <h2>Featured Strategies</h2>
+            <div id="strategy-list">
+                <!-- Strategies will appear here -->
+            </div>
+        </section>
+
+        <!-- Submit Strategy Section -->
+        <section id="submit-strategy">
+            <h2>Submit Your Tower Defense Strategy</h2>
+            <form id="strategy-form">
+                <label for="title">Strategy Title:</label>
+                <input type="text" id="title" name="title" required><br><br>
+
+                <label for="game">Game Title:</label>
+                <input type="text" id="game" name="game" required><br><br>
+
+                <label for="content">Strategy Details:</label><br>
+                <textarea id="content" name="content" rows="4" required></textarea><br><br>
+
+                <button type="submit">Submit Strategy</button>
+            </form>
+        </section>
+
+        <!-- Donate Section -->
+        <section id="donate">
+            <h2>Support the Website</h2>
+            <p>If you find this website helpful and would like to support the development of more Tower Defense strategies, consider making a donation. Every little bit helps!</p>
+
+            <!-- PayPal Donation Button (alexchan20110221@gmail.com) -->
+            <form action="https://www.paypal.com/donate" method="post" target="_blank">
+                <input type="hidden" name="business" value="YOUR_PAYPAL_EMAIL"> <!-- Replace with your PayPal email -->
+                <input type="hidden" name="item_name" value="Tower Defense Strategy Hub Donation">
+                <input type="hidden" name="currency_code" value="USD">
+                <button type="submit" class="donate-button">Donate Now</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Tower Defense Strategies Hub. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
